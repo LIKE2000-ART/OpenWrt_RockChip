@@ -71,9 +71,9 @@ sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
 
 # 编译新版Sing-box和hysteria，需golang版本1.20或者以上版本
-pushd customfeeds/packages/lang
-rm -rf golang
-git clone https://github.com/kenzok8/golang customfeeds/packages/lang/golang
-popd
+# pushd customfeeds/packages/lang
+# rm -rf golang
+# git clone https://github.com/kenzok8/golang customfeeds/packages/lang/golang
+# popd
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
