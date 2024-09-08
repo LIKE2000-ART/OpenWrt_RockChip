@@ -97,6 +97,7 @@ jobs:
         CONFIG_PACKAGE_luci-app-dockerman=y
         CONFIG_PACKAGE_luci-lib-docker=y
         ' >> .config
+        ./scripts/feeds install -a
         make defconfig
         
     - name: Download Package
