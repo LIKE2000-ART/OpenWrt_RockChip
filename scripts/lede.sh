@@ -45,13 +45,19 @@ cp -f $GITHUB_WORKSPACE/data/bg1.jpg luci-theme-argon/htdocs/luci-static/argon/i
 git clone https://github.com/DHDAXCW/theme
 
 # Add subconverter
-git clone --depth=1 https://github.com/tindy2013/openwrt-subconverter
+git clone --depth=1 https://github.com/tindy2013/openwrt-subc onverter
+
+# Add DDNS-GO
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go
 
 # alist
 git clone --depth=1 https://github.com/sbwml/luci-app-alist
 
 # Add OpenAppFilter
 git clone --depth=1 https://github.com/destan19/OpenAppFilter
+
+# Add PartExp
+git clone --depth=1 https://github.com/sirpdboy/luci-app-partexp
 
 popd
  
