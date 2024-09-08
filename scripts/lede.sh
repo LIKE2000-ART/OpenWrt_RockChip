@@ -45,7 +45,7 @@ cp -f $GITHUB_WORKSPACE/data/bg1.jpg luci-theme-argon/htdocs/luci-static/argon/i
 git clone https://github.com/DHDAXCW/theme
 
 # Add subconverter
-git clone --depth=1 https://github.com/tindy2013/openwrt-subc onverter
+git clone --depth=1 https://github.com/tindy2013/openwrt-subconverter
 
 # Add DDNS-GO
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go
